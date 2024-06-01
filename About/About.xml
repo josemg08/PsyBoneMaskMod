@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Psy Bone Masks - Fixed</name>
+	<packageId>psy.bone.masks</packageId>
+	<author>Icelus</author>
+	<supportedVersions>
+    	<li>1.5</li>
+	</supportedVersions>
+	<description>I forked from this mod https://steamcommunity.com/sharedfiles/filedetails/?id=2885162850 in order to fix it. All credit should go to the original artist I just fixed the code and updated everything for 1.5\n\nThis masks provide both Psychic Entropy and Sensitivity, with each been more potent for one of the two. Can be crafted at crafting spot and sculpting table with a human like corpse.\nAny ideas to make it better or other mask related projects are welcome.</description>
+</ModMetaData>

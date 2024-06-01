@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Bone Mask Base -->
+  <ThingDef ParentName="ApparelBase" Name="BoneMaskBase" Abstract="True">
+    <techLevel>Neolithic</techLevel>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+    <tradeTags>
+      <li>BoneApparel</li>
+    </tradeTags>
+    <tradeability>Buyable</tradeability>
+    <burnableByRecipe>true</burnableByRecipe>
+    <smeltable>false</smeltable>
+    <apparel>
+      <tags>
+        <li>Psychic</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <!-- Bone Mask A -->
+  <ThingDef ParentName="BoneMaskBase">
+    <defName>Apparel_BoneMask_of_PsychicSensitivity</defName>
+    <label>BoneMask of PsychicSensitivity</label>
+    <description>Legends tell of a seer who wore this masks for decades, her eyes forever veiled by its bone-white gaze. Beware, for the mask cradles both enlightenment and madness in its hollow embrace.</description>
+    <graphicData>
+      <texPath>Things/Equipment/Apparel/BoneMaskA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.15</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.066</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Equipment/Apparel/BoneMaskA</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+    <tags>
+        <li>AnimaMask</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>
+  <!-- Bone Mask A -->
+  <ThingDef ParentName="BoneMaskBase">
+    <defName>Apparel_BoneMask_of_PsychicEntropy</defName>
+    <label>BoneMask of PsychicEntropy</label>
+    <description>Legends tell of a seer who wore this masks for decades, her eyes forever veiled by its bone-white gaze. Beware, for the mask cradles both enlightenment and madness in its hollow embrace.</description>
+    <graphicData>
+      <texPath>Things/Equipment/Apparel/BoneMaskB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.4</Mass>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.02</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.66</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Equipment/Apparel/BoneMaskB</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+    <tags>
+        <li>AnimaMask</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef>	
+</Defs>
