@@ -2,12 +2,13 @@
 <Defs>
   <!-- Bone Mask Base -->
   <ThingDef ParentName="ApparelBase" Name="BoneMaskBase" Abstract="True">
+    <description>Legends tell of a seer who wore this masks for decades, her eyes forever veiled by its bone-white gaze. Does the power come from the sould of the fallen? And if so, at what cost?</description>
     <techLevel>Neolithic</techLevel>
     <thingCategories>
       <li>Headgear</li>
     </thingCategories>
     <tradeTags>
-      <li>BoneApparel</li>
+      <li>Clothing</li>
     </tradeTags>
     <tradeability>Buyable</tradeability>
     <burnableByRecipe>true</burnableByRecipe>
@@ -15,6 +16,7 @@
     <apparel>
       <tags>
         <li>Psychic</li>
+        <li>IndustrialAdvanced</li>
       </tags>
     </apparel>
   </ThingDef>
@@ -22,7 +24,6 @@
   <ThingDef ParentName="BoneMaskBase">
     <defName>Apparel_BoneMask_of_PsychicSensitivity</defName>
     <label>BoneMask of PsychicSensitivity</label>
-    <description>Legends tell of a seer who wore this masks for decades, her eyes forever veiled by its bone-white gaze. Beware, for the mask cradles both enlightenment and madness in its hollow embrace.</description>
     <graphicData>
       <texPath>Things/Equipment/Apparel/BoneMaskA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -61,19 +62,16 @@
       <layers>
         <li>Overhead</li>
       </layers>
-    <tags>
-        <li>AnimaMask</li>
-      </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
+        <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
   </ThingDef>
-  <!-- Bone Mask A -->
+  <!-- Bone Mask B -->
   <ThingDef ParentName="BoneMaskBase">
     <defName>Apparel_BoneMask_of_PsychicEntropy</defName>
     <label>BoneMask of PsychicEntropy</label>
-    <description>Legends tell of a seer who wore this masks for decades, her eyes forever veiled by its bone-white gaze. Beware, for the mask cradles both enlightenment and madness in its hollow embrace.</description>
     <graphicData>
       <texPath>Things/Equipment/Apparel/BoneMaskB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -112,12 +110,58 @@
       <layers>
         <li>Overhead</li>
       </layers>
-    <tags>
-        <li>AnimaMask</li>
-      </tags>
       <defaultOutfitTags>
         <li>Soldier</li>
+        <li>Worker</li>
       </defaultOutfitTags>
     </apparel>
   </ThingDef>	
+  <!-- Bone Mask C -->
+  <ThingDef ParentName="BoneMaskBase">
+    <defName>Apparel_BoneMask_Psychic</defName>
+    <label>Psy BoneMask</label>
+    <graphicData>
+      <texPath>Things/Equipment/Apparel/BoneMaskC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>1.5</Beauty>
+      <WorkToMake>800</WorkToMake>
+      <MarketValue>500</MarketValue>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Mass>0.3</Mass>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>2</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <PsychicSensitivityOffset>0.02</PsychicSensitivityOffset>
+      <PsychicEntropyRecoveryRate>0.066</PsychicEntropyRecoveryRate>
+    </equippedStatOffsets>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Equipment/Apparel/BoneMaskC</wornGraphicPath>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <dataNorth>
+          <layer>-3</layer>
+        </dataNorth>
+      </drawData>
+      <ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+  </ThingDef> 
 </Defs>

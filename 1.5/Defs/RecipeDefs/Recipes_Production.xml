@@ -56,4 +56,13 @@
         <Apparel_BoneMask_of_PsychicEntropy>1</Apparel_BoneMask_of_PsychicEntropy>
       </products>
     </RecipeDef>
+    <!-- Bone Mask C -->
+    <RecipeDef ParentName="BoneMask_RecipeBase">
+      <defName>Make_Psy_BoneMask</defName>
+      <label>Craft Psy Mask</label>
+      <jobString>Use a corpse to craft a Psy BoneMask.</jobString>
+      <products>
+        <Apparel_BoneMask_Psychic>1</Apparel_BoneMask_Psychic>
+      </products>
+    </RecipeDef>
   </Defs>
