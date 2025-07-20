@@ -4,9 +4,13 @@
 	<packageId>psy.bone.masks</packageId>
 	<author>Icelus</author>
 	<supportedVersions>
-    	<li>1.5</li>
+		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<steamAppId>3258538222</steamAppId>
 	<url>https://github.com/josemg08/PsyBoneMaskMod</url>
-	<description>I forked from https://steamcommunity.com/sharedfiles/filedetails/?id=2885162850 this mod in order to fix and add only the masks. All credit should go to the original artist I just remade the code and updated everything for 1.5.\n\nThis masks provide both Psychic Entropy and Sensitivity. Can be crafted at crafting spot and sculpting table with a human like corpse. Any ideas to make it better or other mask related projects are welcome.</description>
+	<description>This mod introduces new bone masks to Rimworld that offer both Psychic Entropy and Sensitivity. These masks can be crafted at a crafting spot or sculpting table using a human-like corpse.
+
+		Origin and Credits
+		This project is a fork of an excellent concept (https://steamcommunity.com/sharedfiles/filedetails/?id=2885162850). While the original code was no longer functional, I was highly impressed by the assets. All credit for the stunning artwork goes to the original artist. My contribution involves entirely re-coding and updating the mod for Rimworld 1.5 and 1.6.</description>
 </ModMetaData>
