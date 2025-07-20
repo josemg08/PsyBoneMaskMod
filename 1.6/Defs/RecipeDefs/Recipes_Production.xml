@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  <Defs>
+    <!-- Bone Mask Base -->
+    <RecipeDef Name="BoneMask_RecipeBase" Abstract="True">
+      <description>Use the corpse of a fallen friend or foe craft a powerfull mask</description>
+      <workAmount>3500</workAmount>
+      <effectWorking>ButcherFlesh</effectWorking>
+      <soundWorking>Recipe_Sculpt</soundWorking>
+      <autoStripCorpses>true</autoStripCorpses>
+      <workSkill>Intellectual</workSkill>
+      <ingredients>
+        <li>
+          <filter>
+            <categories>
+              <li>Corpses</li>
+            </categories>
+          </filter>
+          <count>1</count>
+        </li>
+      </ingredients>
+      <fixedIngredientFilter>
+        <categories>
+          <li>Corpses</li>
+        </categories>
+        <disallowedCategories>
+          <li>CorpsesAnimal</li>
+          <li>CorpsesMechanoid</li>
+          <li>CorpsesInsect</li>    
+        </disallowedCategories>
+      </fixedIngredientFilter>
+      <defaultIngredientFilter>
+        <categories>
+          <li>CorpsesHumanlike</li> 
+        </categories>
+      </defaultIngredientFilter>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+        <li>TableSculpting</li>
+      </recipeUsers>
+    </RecipeDef>
+    <!-- Bone Mask A -->
+    <RecipeDef ParentName="BoneMask_RecipeBase">
+      <defName>Make_BoneMask_of_PsychicSensitivity</defName>
+      <label>Craft PsySensitivity Mask</label>
+      <jobString>Use a corpse to craft a BoneMask of Psychic Sensitivity.</jobString>
+      <products>
+        <Apparel_BoneMask_of_PsychicSensitivity>1</Apparel_BoneMask_of_PsychicSensitivity>
+      </products>
+    </RecipeDef>
+    <!-- Bone Mask B -->
+    <RecipeDef ParentName="BoneMask_RecipeBase">
+      <defName>Make_BoneMask_of_PsychicEntropy</defName>
+      <label>Craft PsyEntropy Mask</label>
+      <jobString>Use a corpse to craft a BoneMask of Psychic Entropy.</jobString>
+      <products>
+        <Apparel_BoneMask_of_PsychicEntropy>1</Apparel_BoneMask_of_PsychicEntropy>
+      </products>
+    </RecipeDef>
+    <!-- Bone Mask C -->
+    <RecipeDef ParentName="BoneMask_RecipeBase">
+      <defName>Make_Psy_BoneMask</defName>
+      <label>Craft Psy Mask</label>
+      <jobString>Use a corpse to craft a Psy BoneMask.</jobString>
+      <products>
+        <Apparel_BoneMask_Psychic>1</Apparel_BoneMask_Psychic>
+      </products>
+    </RecipeDef>
+  </Defs>
